@@ -23,7 +23,7 @@ class Calculator {
 
     public static void main(String[] args) {
         SpringApplication.run(Calculator.class, args);
-        System.out.println("Podaj dwie liczby:");
+        System.out.println("Podaj dwie liczby, a ja je za Ciebie policzę.");
         Calculator calculator = new Calculator();
         calculator.dodawanie();
         calculator.odejmowanie();
